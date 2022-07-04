@@ -1,0 +1,16 @@
+{
+  "name": "some-other-library",
+  "version": "1.0.0",
+  "description": "",
+  "module": "./index.js",
+  "type": "module",
+  "scripts": {},
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

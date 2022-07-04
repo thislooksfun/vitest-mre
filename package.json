@@ -1,0 +1,21 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "prepare": "cp -r ./some-random-3rd-party-library node_modules && cp -r ./some-other-library node_modules",
+    "test": "vitest --run test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^2.9.13",
+    "vitest": "^0.16.0"
+  }
+}
