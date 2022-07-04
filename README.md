@@ -1,6 +1,6 @@
 # vitest-mre
 
-This is an MRE (minimal reproducible example) of a bug in vitest's handling of vite's [`resolve.conditions`](https://vitejs.dev/config/#resolve-conditions).
+This is an MRE (minimal reproducible example) of [a bug in vitest](https://github.com/vitest-dev/vitest/issues/1588)'s handling of vite's [`resolve.conditions`](https://vitejs.dev/config/#resolve-conditions).
 
 ### The bug
 
